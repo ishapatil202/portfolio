@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ishapatil.dev/static/css/main.49be9d5a.css",
-    "main.js": "/ishapatil.dev/static/js/main.801eb4af.js",
-    "static/js/453.b05d8aa5.chunk.js": "/ishapatil.dev/static/js/453.b05d8aa5.chunk.js",
+    "main.css": "/ishapatil.dev/static/css/main.1af9497f.css",
+    "main.js": "/ishapatil.dev/static/js/main.2940e22c.js",
+    "static/js/453.27fb6024.chunk.js": "/ishapatil.dev/static/js/453.27fb6024.chunk.js",
     "static/media/img1.png": "/ishapatil.dev/static/media/img1.cb6a56fd4291271e1acb.png",
     "static/media/bg-light.png": "/ishapatil.dev/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/ishapatil.dev/static/media/bg-dark.f420c6b8458af72de935.png",
@@ -12,12 +12,12 @@
     "static/media/img3.png": "/ishapatil.dev/static/media/img3.ddeb9f273b9fb64b28a5.png",
     "static/media/img2.png": "/ishapatil.dev/static/media/img2.1c96a1f2175b8631025f.png",
     "index.html": "/ishapatil.dev/index.html",
-    "main.49be9d5a.css.map": "/ishapatil.dev/static/css/main.49be9d5a.css.map",
-    "main.801eb4af.js.map": "/ishapatil.dev/static/js/main.801eb4af.js.map",
-    "453.b05d8aa5.chunk.js.map": "/ishapatil.dev/static/js/453.b05d8aa5.chunk.js.map"
+    "main.1af9497f.css.map": "/ishapatil.dev/static/css/main.1af9497f.css.map",
+    "main.2940e22c.js.map": "/ishapatil.dev/static/js/main.2940e22c.js.map",
+    "453.27fb6024.chunk.js.map": "/ishapatil.dev/static/js/453.27fb6024.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49be9d5a.css",
-    "static/js/main.801eb4af.js"
+    "static/css/main.1af9497f.css",
+    "static/js/main.2940e22c.js"
   ]
 }

@@ -1,0 +1,145 @@
+.code-editor-mockup {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace;
+  font-size: 0.85rem;
+  min-width: 280px;
+  max-width: 360px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.05);
+  background: #1e1e1e;
+  z-index: 2;
+}
+
+.editor-titlebar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: #2d2d2d;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.titlebar-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.titlebar-dots .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  &.red { background: #ff5f56; }
+  &.yellow { background: #ffbd2e; }
+  &.green { background: #27c93f; }
+}
+
+.titlebar-filename {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.75rem;
+}
+
+.editor-tabs {
+  padding: 4px 10px 0;
+  background: #252526;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.editor-tabs .tab {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom: 2px solid transparent;
+  &.active {
+    color: #fff;
+    border-bottom-color: #5000ca;
+  }
+}
+
+.editor-content {
+  display: flex;
+  min-height: 200px;
+  padding: 12px 0;
+}
+
+.line-numbers {
+  padding: 0 12px 0 16px;
+  text-align: right;
+  user-select: none;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.8rem;
+  line-height: 1.7;
+
+  span {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    &.visible { opacity: 1; }
+  }
+}
+
+.code-lines {
+  flex: 1;
+  overflow: hidden;
+}
+
+.code-line {
+  display: flex;
+  align-items: center;
+  line-height: 1.7;
+  min-height: 1.7em;
+  position: relative;
+
+  .token {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  &.visible .token {
+    opacity: 1;
+  }
+
+  .token.comment {
+    color: #6a9955;
+  }
+
+  .token.keyword {
+    color: #569cd6;
+  }
+
+  .token.line {
+    color: #d4d4d4;
+  }
+
+  .cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background: #5000ca;
+    margin-left: 2px;
+    animation: blink 1s step-end infinite;
+    vertical-align: middle;
+  }
+
+  &.cursor-line .token.line,
+  &.cursor-line .token.keyword {
+    color: inherit;
+  }
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* Light mode */
+.light-mode .code-editor-mockup {
+  background: #1e1e1e;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.light-mode .editor-titlebar {
+  background: #2d2d2d;
+}
+
+.light-mode .editor-tabs .tab.active {
+  border-bottom-color: #5000ca;
+}

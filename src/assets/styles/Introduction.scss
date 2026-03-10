@@ -1,30 +1,43 @@
 .introduction-page {
-  padding: 5% 10%; // Matches the skills-container
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; // Aligns left like Expertise
-  justify-content: center;
+  padding: 5% 10%;
   width: 100%;
 }
 
-.introduction-page h1 {
+.introduction-layout {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1200px;
+}
+
+.introduction-editor {
+  flex-shrink: 0;
+}
+
+.introduction-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.introduction-content h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
   color: white;
-  text-align: left; // Ensure left alignment
+  text-align: left;
 }
 
-.introduction-page p {
+.introduction-content p {
   font-size: 1.5rem;
   line-height: 1.8;
   color: white;
-  text-align: left; // Align text left
+  text-align: left;
   margin-bottom: 30px;
 }
 
 /* Light Mode adjustments for Introduction */
-.light-mode .introduction-page h1,
-.light-mode .introduction-page p {
+.light-mode .introduction-content h1,
+.light-mode .introduction-content p {
   color: black;
 }
 
@@ -34,11 +47,22 @@
     padding: 5%;
   }
 
-  .introduction-page h1 {
+  .introduction-layout {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  .introduction-editor {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .introduction-content h1 {
     font-size: 2rem;
   }
 
-  .introduction-page p {
+  .introduction-content p {
     font-size: 1rem;
   }
 }

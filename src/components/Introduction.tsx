@@ -1,14 +1,22 @@
 // src/components/Introduction.tsx
 import React from 'react';
+import CodeEditorMockup from './CodeEditorMockup';
 import '../assets/styles/Introduction.scss';
 
 const Introduction: React.FC = () => {
   return (
     <div className="introduction-page">
-      <h1>Introduction</h1>
-      <p>
-      I’m a Master’s student in Computer Science at CSULA, passionate about building impactful software solutions that bridge technology and real-world needs. I’m excited by opportunities across AI, data, and full-stack development—and I’m eager to take on challenges that blend creativity with code. Let’s connect!
-      </p>
+      <div className="introduction-layout">
+        <div className="introduction-editor">
+          <CodeEditorMockup />
+        </div>
+        <div className="introduction-content">
+          <h1>Introduction</h1>
+          <p>
+          I’m a Computer Science graduate focused on building reliable and scalable software systems that solve real-world problems. I work across backend development, AI-driven systems, and full-stack applications, with a focus on clean architecture and thoughtful engineering.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

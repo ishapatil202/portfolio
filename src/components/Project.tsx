@@ -27,8 +27,8 @@ function Project() {
                 <p>Designed an AI-powered Smart Attendance System using YOLOv5 and OpenCV, automating real-time face detection, data ingestion, and robust attendance tracking for scalable deployments.</p>
             </div>
             <div className="project">
-                <a href="https://github.com/ishapatil202/campus-placement-system" target="_blank" rel="noreferrer"><img src={img3} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/ishapatil202/campus-placement-system" target="_blank" rel="noreferrer"><h2></h2></a>
+                <a href="https://campus-placement-system.web.app/" target="_blank" rel="noreferrer"><img src={img3} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://campus-placement-system.web.app/" target="_blank" rel="noreferrer"><h2></h2></a>
                 <p>Designed and developed a full-stack Campus Placement System using Node.js, Express, EJS, and MongoDB, streamlining student registrations, company job postings, and placement officer workflows with a scalable and secure deployment.</p>
             </div>
             <div className="project">

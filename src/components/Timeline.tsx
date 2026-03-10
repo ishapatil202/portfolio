@@ -23,9 +23,10 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Research Assistant</h3>
             <h4 className="vertical-timeline-element-subtitle">California State University, Los Angeles</h4>
             <ul>
-              <li>Conducting data analysis on student performance for Project #SPACE (Simulation-Based Pedagogical Approach for STEM Education), funded by the NSF.</li>
-              <li>Mentoring undergraduate students and contributing to simulation-based learning research.</li>
-              <li>Exploring AI and data-driven methodologies to enhance STEM education outcomes.</li>
+              <li>Built data processing pipelines in Python to analyze large student performance datasets.</li>
+              <li>Developed and evaluated ML models for automated error classification (76% macro F1).</li>
+              <li>Designed modular preprocessing workflows to improve scalability and reproducibility.</li>
+              <li>Collaborated in agile research sprints to iterate on model improvements and system reliability.</li>
             </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement

@@ -18,7 +18,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/isha-patil224/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Isha Patil</h1>
-          <p>Full Stack Engineer</p>
+          <p>Software Engineer</p>
           <div className="mobile_social_icons">
             <a href="https://github.com/ishapatil202?tab=repositories" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/isha-patil224/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
